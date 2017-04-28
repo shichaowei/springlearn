@@ -18,5 +18,8 @@
 </form>
 
 <a href="other.html">other page</a>
+<a href="toFileUpload.html">file upload</a>
+<a href="toFilesUpload.html">files upload</a>
+
 </body>
 </html>

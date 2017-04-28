@@ -23,5 +23,23 @@ public class HomeController {
 		return mav;
 	}
 	
+	/***
+	 * 跳转到上传文件的页面
+	 * @return
+	 */
+	@RequestMapping("toFileUpload")
+	public String toFileUpload(){
+		return "fileUpload";
+	}
+	
+	/***
+	 * 跳转到上传多个文件的页面
+	 * @return
+	 */
+	@RequestMapping("toFilesUpload")
+	public String toFilesUpload(){
+		return "filesUpload";
+	}
+	
 	
 }
